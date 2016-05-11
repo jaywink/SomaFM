@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SomaFM
+Comment=SomaFM unofficial webapp
+Type=Application
+Icon=SomaFM.png
+Exec=webapp-container --enable-back-forward --enable-media-hub-audio --store-session-cookies --webappUrlPatterns=https?://somafm.com/* https://somafm.com/player/#/all-stations %u
+Terminal=false
+X-Ubuntu-Touch=true
+

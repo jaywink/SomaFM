@@ -1,0 +1,15 @@
+{
+    "name": "somafm.jaywink",
+    "description": "SomaFM internet radio (unofficial webapp)",
+    "architecture": "all",
+    "title": "SomaFM",
+    "hooks": {
+        "SomaFM": {
+            "apparmor": "SomaFM.apparmor",
+            "desktop": "SomaFM.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Jason Robinson <mail@jasonrobinson.me>",
+    "framework": "ubuntu-sdk-15.04.5"
+}
